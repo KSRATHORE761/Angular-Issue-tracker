@@ -6,3 +6,10 @@ export interface IssueForm {
   priority: FormControl<string>;
   type: FormControl<string>;
 }
+
+
+export interface EditIssueFrom{
+  title: FormControl<string>;
+  description: FormControl<string>;
+  priority: FormControl<string>;
+}
